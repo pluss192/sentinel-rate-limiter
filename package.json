@@ -1,0 +1,16 @@
+{
+  "name": "sentinel-rate-limiter",
+  "version": "1.0.0",
+  "description": "Distributed API Gateway & Rate-Limiting Engine",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "dotenv": "^16.4.5"
+  }
+}
